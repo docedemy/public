@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'public';
+  htmlString =
+`
+<div>Hello gowtham</div>
+<div>hello</div>`;
 }

@@ -1,14 +1,78 @@
-.grid-container {
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.wrapper {
     display: grid;
-    grid-template-areas:
-      'header'
-      'main'
-      'footer';
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto 1fr auto;
     grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
+    height: 95vh;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+// .wrapper * {
+//     background: orange;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-bottom: 1px;
+//     margin-right: 1px;
+// }
+
+.contentsWrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.exampleGrid
+{
+    display: grid;    
+}
+
+.exampleGrid
+{
+    display: grid;    
+}
+
+.exampleGrid * {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+.exampleGrid1
+{
+    display: grid;    
+}
+
+.exampleGrid1 * {
+    background: rgb(0, 47, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+
+
